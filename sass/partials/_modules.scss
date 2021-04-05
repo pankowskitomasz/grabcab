@@ -1,8 +1,44 @@
+.about{
+    &-s2__col-left{
+        @include cover-bg($img__index-s4-left-bg);
+        background-blend-mode: $blend__multiply;  
+    }
+}
+
 .comingsoon{
     &-s1{
         @include cover-bg($img__coming-soon);
         background-blend-mode: $blend__multiply;
     }    
+}
+.contact{
+    &-s1{
+        @include cover-bg($img__contact-s1);
+        background-blend-mode: $blend__multiply;
+    }
+}
+.filter{
+    &-brightness{
+        &-7{
+            filter: brightness(0.7);
+        }
+    }
+}
+.index{
+    &-s1__carousel-img{
+        height: 100vh;
+        max-height: 600px;
+        width: 100%;
+        object-fit: cover;
+    }
+    &-s2{
+        @include cover-bg($img__index-s2-bg);
+        background-blend-mode: $blend__multiply;        
+    }
+    &-s4__col-left{
+        @include cover-bg($img__index-s4-left-bg);
+        background-blend-mode: $blend__multiply;  
+    }
 }
 
 .minh{
@@ -29,5 +65,11 @@
     }
     &-9{
         opacity: 0.9;
+    }
+}
+
+.text{
+    &-shadow{
+        text-shadow: $text-shadow;
     }
 }

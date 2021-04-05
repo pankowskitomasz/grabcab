@@ -9,6 +9,14 @@ body, html {
 }
 
 /* line 2, ../sass/partials/_modules.scss */
+.about-s2__col-left {
+  background-image: url("../img/index/app_guide.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 9, ../sass/partials/_modules.scss */
 .comingsoon-s1 {
   background-image: url("../img/init/comingsoon.jpg");
   background-position: center;
@@ -16,32 +24,72 @@ body, html {
   background-blend-mode: multiply;
 }
 
-/* line 9, ../sass/partials/_modules.scss */
+/* line 15, ../sass/partials/_modules.scss */
+.contact-s1 {
+  background-image: url("../img/contact/s1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 22, ../sass/partials/_modules.scss */
+.filter-brightness-7 {
+  filter: brightness(0.7);
+}
+
+/* line 28, ../sass/partials/_modules.scss */
+.index-s1__carousel-img {
+  height: 100vh;
+  max-height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+/* line 34, ../sass/partials/_modules.scss */
+.index-s2 {
+  background-image: url("../img/index/citymap.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+/* line 38, ../sass/partials/_modules.scss */
+.index-s4__col-left {
+  background-image: url("../img/index/app_guide.jpg");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+/* line 45, ../sass/partials/_modules.scss */
 .minh-25vh {
   min-height: 25vh;
 }
-/* line 12, ../sass/partials/_modules.scss */
+/* line 48, ../sass/partials/_modules.scss */
 .minh-50vh {
   min-height: 50vh;
 }
-/* line 15, ../sass/partials/_modules.scss */
+/* line 51, ../sass/partials/_modules.scss */
 .minh-75vh {
   min-height: 75vh;
 }
-/* line 18, ../sass/partials/_modules.scss */
+/* line 54, ../sass/partials/_modules.scss */
 .minh-100vh {
   min-height: 100vh;
 }
 
-/* line 24, ../sass/partials/_modules.scss */
+/* line 60, ../sass/partials/_modules.scss */
 .opacity-7 {
   opacity: 0.7;
 }
-/* line 27, ../sass/partials/_modules.scss */
+/* line 63, ../sass/partials/_modules.scss */
 .opacity-8 {
   opacity: 0.8;
 }
-/* line 30, ../sass/partials/_modules.scss */
+/* line 66, ../sass/partials/_modules.scss */
 .opacity-9 {
   opacity: 0.9;
+}
+
+/* line 72, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 0 0 2px #222;
 }
