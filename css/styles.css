@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "FugazOne";
+  src: url("../fonts/FugazOne-Regular.ttf");
+}
 /* line 1, ../sass/partials/_layout.scss */
 * {
   box-sizing: border-box;
@@ -92,4 +96,10 @@ body, html {
 /* line 72, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 0 0 2px #222;
+}
+
+/* line 76, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "FugazOne";
+  letter-spacing: 1px;
 }
